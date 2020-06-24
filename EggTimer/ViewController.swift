@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     var IncRate: Float = 0.0
     var timerCounter = Timer()
     var hardness: String = ""
-    let eggTimes = ["Soft": 300, "Medium": 7, "Hard": 12]
+    let eggTimes = ["Soft": 3, "Medium": 7, "Hard": 12]
     
     @IBOutlet weak var infoLabel: UILabel!
     @IBOutlet weak var timerProgessBar: UIProgressView!
